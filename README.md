@@ -1,2 +1,2 @@
-# Data-Protection-Privacy-Compliance-by-Design
-Data Protection &amp; Privacy Compliance by Design
+# data-protection-and-privacy-compliance
+Data protection and privacy compliance by design in AI data pipelines
