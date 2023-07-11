@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.com/datasheet_ontology.owl"
+         xmlns="http://example.com/datasheet_ontology.owl#">
+
+<owl:Ontology rdf:about="http://example.com/datasheet_ontology.owl"/>
+
+<owl:Class rdf:about="#DatasetCharacteristic">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#motivation">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#composition">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#collection">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#preprocessing">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#uses">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#distribution">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#maintenance">
+  <rdf:type rdf:resource="#DatasetCharacteristic"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>

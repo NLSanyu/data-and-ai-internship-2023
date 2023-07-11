@@ -3,3 +3,6 @@ data/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Virtual environment
+venv/
