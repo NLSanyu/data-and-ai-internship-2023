@@ -1,0 +1,29 @@
+{
+  "model": {
+    "model_details": {
+      "model_description": "",
+      "model_sources_[optional]": "",
+      "": ""
+    },
+    "uses": {
+      "direct_use": "",
+      "downstream_use": "",
+      "out_of_scope_use": ""
+    },
+    "biases_risk_and_limitations": {},
+    "get_started": {},
+    "training": {},
+    "evaluation": {},
+    "examination": {},
+    "environmental_impact": {},
+    "technical_specifications _optional]": {},
+    "citation": {
+      "bibtex": "",
+      "apa": ""
+    },
+    "glossary_[optional]": {},
+    "more_infromation_[optional]": {},
+    "model_card_authors_[optional]": {},
+    "model_card_contact_[optional]": {}
+  }
+}
