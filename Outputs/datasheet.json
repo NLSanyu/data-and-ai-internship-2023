@@ -1,66 +1,39 @@
 {
-  "Source": {
-    "Known/Unknown": ["DataSource", "Unknown"],
-    "Clear/Unclear": ["Clear”, “Unclear"]
+  "Data Source": {
+    "Collection Process": "",
+    "Purpose of collection": "",
+    "Preprocessing": [""],
+    "Timeframe of Collection": "",
+    "Uses": ["Intended Uses", "Unintended Uses", " Possible Uses"],
+    "Sampling": ["Full", "Sample"],
+    "LegalBasis": ["Contract with individual", "Informed consent"]
   },
-  "Purpose": {
-    "Known/Unknown": ["Purpose", "Unknown"],
-    "Clear/Unclear": ["Clear/Unclear"]
-  },
-  "Instances": ["images", "text files"],
-  "Instance Representations": ["people", "animals", "company records"],
-  "If people": {
-    "Is it personal data?": "PersonalData (and categories in taxonomy)",
-    "Identifiability": ["Direct", "Indirect"],
-    "If Direct": "ExplicitlyIdentifyingPersonalData",
-    "If inDirect": "IndirectIndirectlyIdentifyingPersonalData",
+  "Data": {
+    "Categories": [],
+    "Types": ["Images", "Text files", "Audio recordings"],
+    "Instances": ["People", "Animals", "Company Records"],
+    "Confidentiality": ["Confidential", "Non-confidential Data"],
+    "Labelling": {
+      "Labelled or Unlabelled": ["Labelled", "Unlabelled"],
+      "Manual or Automatic": ["Manual ", "Automatic"],
+      "Verified or Unverified": ["Verified ", "Unverified"],
+      "Accurate or Inaccurate": ""
+    },
+    "Incompleteness": ["Missing Information", "No Missing Information?"],
     "Sensitive Data": ["No", "SensitivePersonalData"],
-    "Special Category Data": ["No", "SpecialCategoryPersonalData"]
+    "Special Category Data": ["No", "SpecialCategoryPersonalData"],
+    "Errors/Noise/Redundancies": [],
+    "Representativeness": ["Skewed Representation", " Bias"],
+    "Storage": ["StorageCondition"],
+    "Retention": "",
+    "Ethical Review": ["Not Done", "ImpactAssessment"],
+    "Measures to Safeguard Data": ["TechnicalMeasure", " OrganisationalMeasure"],
+    "Recipient": "Recipient",
+    "Publisher": "",
+    "Date of publication": ""
   },
-  "Collection Process": ["Known", "Unknown"],
-  "Legal Basis of Data Collection": "LegalBasis",
-  "Consent": {
-    "Type": "Consent subclasses",
-    "terms": "?",
-    "revocable?": "?"
-  },
-  "Basis for Data Reuse": [
-    "Consent Covers Intended Purpose",
-    "Public Interest"
-  ],
-  "Timeframe of Collection": "When was the data collected?",
-  "Sampling": ["Full", "Sample"],
-  "If sample": {
-    "random or non-random": ["random", "non-random"],
-    "Basis for Reusing Dataset": "dct:license",
-    "Compatibility of Intended Use with terms of the sampled dataset": "analysis"
-  },
-  "Labelling": {
-    "Labelled or Unlabelled": ["Labelled", " Unlabelled"],
-    "Manual or Automatic": ["Manual ", " Automatic"],
-    "Verified or Unverified": ["Verified ", " Unverified"],
-    "Accurate or Inaccurate": ["VerifiedData", "UnverifiedData"]
-  },
-  "Completeness": ["Missing Information", "No Missing Information?"],
-  "If missing": {
-    "What information is missing?": "?"
-  },
-  "Errors/Noise/Redundancies": {
-    "Noisy or Not Noisy?": ["Noisy ", " Not Noisy"],
-    "Known errors or no known errors?": ["Known", "unknown"]
-  },
-  "Confidentiality": ["Confidential", "Non-confidential Data"],
-  "Representativeness": ["Skewed Representation", " Bias"],
-  "Preprocessing/Cleaning": [
-    "Pre-processing methods",
-    "raw data",
-    "processed data",
-    "dpv Processing"
-  ],
-  "Uses": ["Intended Uses", " Unintended Uses", " Possible Uses", "Purpose"],
-  "Storage": "StorageCondition",
-  "Recipient": "Recipient",
-  "Retention": "StorageCondition",
-  "Ethical Review / Impact Assessment": ["Not Done", "ImpactAssessment"],
-  "Measures to Safeguard Data": ["TechnicalMeasure", " OrganisationalMeasure"]
+  "Reuse": {
+    "Reuse conditions": "",
+    "Licence": ""
+  }  
 }
