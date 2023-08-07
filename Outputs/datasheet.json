@@ -1,39 +1,40 @@
 {
-  "Data Source": {
-    "Collection Process": "",
-    "Purpose of collection": "",
-    "Preprocessing": [""],
-    "Timeframe of Collection": "",
-    "Uses": ["Intended Uses", "Unintended Uses", " Possible Uses"],
-    "Sampling": ["Full", "Sample"],
-    "LegalBasis": ["Contract with individual", "Informed consent"]
-  },
-  "Data": {
-    "Categories": [],
-    "Types": ["Images", "Text files", "Audio recordings"],
-    "Instances": ["People", "Animals", "Company Records"],
-    "Confidentiality": ["Confidential", "Non-confidential Data"],
-    "Labelling": {
-      "Labelled or Unlabelled": ["Labelled", "Unlabelled"],
-      "Manual or Automatic": ["Manual ", "Automatic"],
-      "Verified or Unverified": ["Verified ", "Unverified"],
-      "Accurate or Inaccurate": ""
+  "new:Datasheet": {
+    "dpv:DataSource": {
+      "dpv:DataSource": "",
+      "new:CollectionProcess": "",
+      "dpv:Purpose": ["Academic Research", "Account Management", "Advertising"],
+      "new:TimeframeOfCollection": "",
+      "dpv:LegalBasis": ["dpv:Consent", "dpv:Contract", "dpv:PublicInterest"],
+      "dpv:Processing": ["dpv:Collect", "dpv:Store", "dpv:Transform"],
+      "new:Uses": ["Intended Uses", "Unintended Uses", "Possible Uses"],
+      "new:Sampling": ["Full", "Sample"]
     },
-    "Incompleteness": ["Missing Information", "No Missing Information?"],
-    "Sensitive Data": ["No", "SensitivePersonalData"],
-    "Special Category Data": ["No", "SpecialCategoryPersonalData"],
-    "Errors/Noise/Redundancies": [],
-    "Representativeness": ["Skewed Representation", " Bias"],
-    "Storage": ["StorageCondition"],
-    "Retention": "",
-    "Ethical Review": ["Not Done", "ImpactAssessment"],
-    "Measures to Safeguard Data": ["TechnicalMeasure", " OrganisationalMeasure"],
-    "Recipient": "Recipient",
-    "Publisher": "",
-    "Date of publication": ""
-  },
-  "Reuse": {
-    "Reuse conditions": "",
-    "Licence": ""
-  }  
+    "dpv:Data": {
+      "new:Types": ["Images", "Text files", "Audio recordings"],
+      "new:Represents": ["People", "Animals", "Company Records"],
+      "new:Confidentiality": ["Confidential", "Non-confidential"],
+      "new:Labelling": {
+        "Labelled": ["Unlabelled", "Manual ", "Automatic"],
+        "Verified": ["Unverified ", "Accurate", "Inaccurate"]
+      },
+      "new:Incompleteness": ["", "No Missing Information"],
+      "new:Identifiability": ["ExplicitlyIdentifyingPersonalData", "IndirectlyIdentifyingPersonalData"],
+      "dpv:SensitivePersonalData": "",
+      "dpv:SpecialCategoryPersonalData": "",
+      "new:Errors/Noise/Redundancies": [],
+      "new:Representativeness": ["Skewed Representation", "Bias"],
+      "dpv:DataStorage": ["dpv:StorageLocation", "dpv:StorageCondition"],
+      "new:Retention": ["dpv:StorageDuration, dpv:StorageDeletion"],
+      "dpv:ImpactAssessment": "",
+      "new:MeasurestoSafeguardData": ["dpv:TechnicalMeasure", "dpv:OrganisationalMeasure"],
+      "dpv:Recipient": "",
+      "dcat:publisher": "",
+      "dcat:releasedate": ""
+    },
+    "new:Reuse": {
+      "new:ReuseConditions": "",
+      "dcat:licence": ""
+    }
+  }
 }
