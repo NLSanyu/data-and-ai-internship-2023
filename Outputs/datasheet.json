@@ -29,8 +29,8 @@
       "dpv:ImpactAssessment": "",
       "new:MeasurestoSafeguardData": ["dpv:TechnicalMeasure", "dpv:OrganisationalMeasure"],
       "dpv:Recipient": "",
-      "dcat:publisher": "",
-      "dcat:releasedate": ""
+      "dct:publisher": "",
+      "dct:date": ""
     },
     "new:Reuse": {
       "new:ReuseConditions": "",
